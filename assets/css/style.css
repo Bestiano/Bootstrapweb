@@ -1,0 +1,91 @@
+body{
+  margin: 0;
+}
+
+.header{
+  position: sticky;
+  min-height: 4rem;
+  background-color: #563d7c;
+}
+
+.align-nav li{
+  margin: 18px 10px;
+  float:left;
+  display:inline-block;
+  list-style: none;
+  color: white;
+}
+
+.isotipo{
+  margin: 15px;
+}
+
+.btn-gold{
+  color: #ffe484;
+  border-color: #ffe484;
+}
+
+.bootstrap-getstarted{
+  padding: 100px 100px 15px 100px;
+}
+
+.bootstrap-getstarted h1{
+  color: #7952b3;
+  font-size: 4rem;
+}
+
+.stackbootstrap{
+  max-width: 70%;
+}
+
+.align-getstarted{
+  text-align: left;
+  margin-right: : auto;
+  box-sizing: border-box;
+}
+.btn-violet{
+  border-color: #7952b3;
+  color:#7952b3;
+}
+.btn-violet:hover{
+  background-color:#7952b3;
+}
+
+.slack{
+  position: static;
+  display: block;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,.05);
+}
+
+.ads {
+  padding-left: 15px;
+}
+
+}
+.slack-logo{
+  background-color: white;
+  padding:35px 30px;
+}
+
+.instalacion{
+  margin: 150px 50px;
+}
+
+.air-img{
+  padding-bottom: 15px;
+}
+
+.nav-footer li{
+  display: inline-block;
+  margin: 10px 15px;
+}
+
+.bg-gray{
+  border: 1px solid #fff;
+  background: #dee2e6;
+  padding: 25px;
+
+}
