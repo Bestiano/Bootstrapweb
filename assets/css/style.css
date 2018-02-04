@@ -4,8 +4,15 @@ body{
 
 .header{
   position: sticky;
+  top: 0;
+  z-index: 100200;
   min-height: 4rem;
   background-color: #563d7c;
+  margin-bottom: 20px;
+}
+
+.header a{
+  color: white;
 }
 
 .align-nav li{
@@ -20,13 +27,20 @@ body{
   margin: 15px;
 }
 
+.btn-bd{
+  padding: .8rem 2rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 5px;
+}
+
 .btn-gold{
   color: #ffe484;
   border-color: #ffe484;
 }
 
 .bootstrap-getstarted{
-  padding: 100px 100px 15px 100px;
+  padding: 100px 0px;
 }
 
 .bootstrap-getstarted h1{
@@ -85,7 +99,35 @@ body{
 
 .bg-gray{
   border: 1px solid #fff;
-  background: #dee2e6;
+  background: #f8f9fa;
   padding: 25px;
+}
 
+.separador{
+  width: 6rem;
+  margin: 2.5rem 0;
+}
+
+.instalacion h2{
+  margin: 10px 0;
+}
+.box{
+  box-sizing: border-box;
+}
+
+.info-footer{
+ color: #6c757d;
+}
+
+.nav-footer a{
+  color: #495057;
+}
+
+.nav-footer ul{
+  padding-left: 0;
+}
+
+footer.footer{
+  margin-bottom: 0;
+  font-size: 90%;
 }
