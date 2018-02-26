@@ -8,7 +8,7 @@ body{
   z-index: 100200;
   min-height: 4rem;
   background-color: #563d7c;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .header a{
@@ -53,6 +53,7 @@ body{
 }
 
 .align-getstarted{
+  float: left;
   text-align: left;
   margin-right: : auto;
   box-sizing: border-box;
@@ -130,4 +131,53 @@ body{
 footer.footer{
   margin-bottom: 0;
   font-size: 90%;
+}
+
+header.blog-header{
+  background-color: #6f5499;
+  color:white;
+  font-family: sans-serif;
+}
+
+header .header-padd{
+  padding: 50px 0;
+  width: 33%;
+}
+
+header .isotipo-blog{
+  width: 108px;
+  margin-bottom: 10px;
+}
+
+header a{
+  color:white;
+}
+
+.multi1{
+  padding: 25px 0;
+}
+.multi1 .gray-link{
+  color: #353535;
+}
+
+.multi1 span{
+  color: #e7e7e7;
+}
+
+.twitter-btn{
+  display: block;
+  margin: 5px 0;
+}
+
+.multi1 p{
+  width: 560px;
+  text-align: justify;
+  padding: 10px 0;
+  font-family: sans-serif;
+  font-weight: 200;
+  color: #000;
+}
+
+.multi1 img{
+  width: 560px;
 }
